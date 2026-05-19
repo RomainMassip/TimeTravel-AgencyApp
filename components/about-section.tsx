@@ -3,18 +3,18 @@ import { Clock, Shield, Gem } from "lucide-react"
 const features = [
   {
     icon: Clock,
-    title: "Precise Temporal Navigation",
-    description: "Our quantum chronometers ensure arrival within seconds of your desired moment in history.",
+    title: "Navigation temporelle précise",
+    description: "Nos chronomètres quantiques garantissent une arrivée à quelques secondes près à l'instant historique souhaité.",
   },
   {
     icon: Shield,
-    title: "Historical Protection",
-    description: "Advanced timeline shielding prevents paradoxes while allowing full immersion in the past.",
+    title: "Protection historique",
+    description: "Un bouclier temporel avancé prévient les paradoxes tout en permettant une immersion complète dans le passé.",
   },
   {
     icon: Gem,
-    title: "Luxury Experience",
-    description: "Five-star accommodations adapted to each era, with modern amenities invisibly integrated.",
+    title: "Expérience de luxe",
+    description: "Hébergements cinq étoiles adaptés à chaque époque, avec des commodités modernes intégrées de manière invisible.",
   },
 ]
 
@@ -31,15 +31,15 @@ export function AboutSection() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="inline-block text-sm uppercase tracking-widest text-primary mb-4">
-            About the Agency
+            À propos de l'agence
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium text-foreground mb-6 text-balance">
-            Redefining the Art of Travel
+            Redéfinir l'art du voyage
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-            Since our founding in 2089, TimeTravel Agency has pioneered luxury temporal tourism. 
-            We don&apos;t just transport you through time &mdash; we craft bespoke journeys that immerse 
-            you in history&apos;s most extraordinary moments.
+            Depuis notre création en 2089, TimeTravel Agency a été pionnière du tourisme temporel de luxe. 
+            Nous ne nous contentons pas de vous transporter à travers le temps &mdash; nous concevons des voyages sur mesure
+            qui vous plongent au cœur des moments les plus extraordinaires de l'histoire.
           </p>
         </div>
 

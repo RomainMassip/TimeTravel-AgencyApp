@@ -16,7 +16,7 @@ export function ChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Welcome, temporal traveler. I'm Chronos, your AI guide through the ages. How may I assist you in planning your journey through time?",
+      content: "Bienvenue, voyageur temporel. Je suis Chronos, votre guide IA à travers les âges. Comment puis-je vous aider à planifier votre voyage dans le temps ?",
     },
   ])
   const bottomRef = useRef<HTMLDivElement>(null)
@@ -65,8 +65,8 @@ export function ChatWidget() {
                   <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-card" />
                 </div>
                 <div>
-                  <h3 className="font-medium text-foreground">Chronos AI</h3>
-                  <p className="text-xs text-muted-foreground">Your temporal guide</p>
+                  <h3 className="font-medium text-foreground">Chronos IA</h3>
+                  <p className="text-xs text-muted-foreground">Votre guide temporel</p>
                 </div>
               </div>
               <button onClick={() => setIsOpen(false)} className="p-2 hover:bg-secondary rounded-lg transition-colors">
@@ -96,8 +96,8 @@ export function ChatWidget() {
               {/* Suggestions (uniquement au début) */}
               {messages.length === 1 && (
                 <div className="mt-2 space-y-2">
-                  <p className="text-xs uppercase tracking-widest text-muted-foreground">Suggested Questions</p>
-                  {["What's the best era for art lovers?", "Is dinosaur tourism safe?", "Tell me about Paris 1889"].map((q) => (
+                  <p className="text-xs uppercase tracking-widest text-muted-foreground">Questions suggérées</p>
+                  {["Quelle est la meilleure époque pour les amateurs d'art ?", "Le tourisme des dinosaures est-il sans danger ?", "Parlez-moi de Paris 1889"].map((q) => (
                     <button
                       key={q}
                       onClick={() => sendMessage(q)}
@@ -130,7 +130,7 @@ export function ChatWidget() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && sendMessage(input)}
-                  placeholder="Ask me about time travel..."
+                  placeholder="Posez-moi une question sur le voyage dans le temps..."
                   className="flex-1 bg-secondary/50 border border-border rounded-xl px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/50 transition-colors"
                 />
                 <Button

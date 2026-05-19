@@ -14,9 +14,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'TimeTravel Agency | Luxury Temporal Experiences',
-  description: 'Discover legendary eras through luxury temporal experiences. Travel beyond time with our premium time travel services.',
-  keywords: ['time travel', 'luxury travel', 'temporal experiences', 'historical destinations'],
+  title: 'TimeTravel Agency | Expériences temporelles de luxe',
+  description: 'Découvrez des époques légendaires grâce à des expériences temporelles de luxe. Voyagez au-delà du temps avec nos services de voyage temporel haut de gamme.',
+  keywords: ['voyage dans le temps', 'voyage de luxe', 'expériences temporelles', 'destinations historiques'],
 }
 
 export const viewport: Viewport = {
@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="bg-background">
+    <html lang="fr" className="bg-background">
       <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
