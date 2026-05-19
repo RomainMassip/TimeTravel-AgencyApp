@@ -17,9 +17,9 @@ export function Header() {
   }, [])
 
   const navLinks = [
-    { href: "#home", label: "Home" },
+    { href: "#home", label: "Accueil" },
     { href: "#destinations", label: "Destinations" },
-    { href: "#assistant", label: "AI Assistant" },
+    { href: "#assistant", label: "Assistant IA" },
     { href: "#contact", label: "Contact" },
   ]
 
@@ -63,7 +63,7 @@ export function Header() {
         <button
           className="md:hidden text-foreground p-2"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-label={isMobileMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>

@@ -9,7 +9,7 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-bg.jpg"
-          alt="Time portal with cosmic energy"
+          alt="Portail temporel avec énergie cosmique"
           fill
           className="object-cover"
           priority
@@ -29,15 +29,15 @@ export function HeroSection() {
 
         {/* Main Title */}
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-foreground mb-6">
-          <span className="text-balance">Travel Beyond</span>
+          <span className="text-balance">Voyagez au-delà</span>
           <br />
-          <span className="text-primary">Time</span>
+          <span className="text-primary">du temps</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed text-pretty">
-          Discover legendary eras through luxury temporal experiences. 
-          Journey through history in unparalleled comfort and style.
+          Découvrez des époques légendaires grâce à des expériences temporelles de luxe. 
+          Parcourez l'histoire dans un confort et un style inégalés.
         </p>
 
         {/* CTA Buttons */}
@@ -47,8 +47,8 @@ export function HeroSection() {
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-base uppercase tracking-widest group"
             asChild
           >
-            <a href="#destinations">
-              Explore Destinations
+              <a href="#destinations">
+              Explorer les destinations
               <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
           </Button>
@@ -59,14 +59,14 @@ export function HeroSection() {
             asChild
           >
             <a href="#assistant">
-              Talk to our AI Guide
+              Parlez à notre guide IA
             </a>
           </Button>
         </div>
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-          <span className="text-xs uppercase tracking-widest text-muted-foreground">Scroll</span>
+          <span className="text-xs uppercase tracking-widest text-muted-foreground">Faire défiler</span>
           <div className="w-px h-12 bg-gradient-to-b from-primary to-transparent" />
         </div>
       </div>

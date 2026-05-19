@@ -29,15 +29,15 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Pioneering luxury temporal tourism since 2089. Your gateway to history&apos;s most extraordinary moments.
+              Pionniers du tourisme temporel de luxe depuis 2089. Votre passerelle vers les moments les plus extraordinaires de l'histoire.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="md:col-span-1">
-            <h4 className="text-sm uppercase tracking-widest text-foreground mb-4">Navigation</h4>
+            <h4 className="text-sm uppercase tracking-widest text-foreground mb-4">Liens rapides</h4>
             <ul className="space-y-3">
-              {["Home", "Destinations", "AI Assistant", "Contact"].map((link) => (
+              {["Accueil", "Destinations", "Assistant IA", "Contact"].map((link) => (
                 <li key={link}>
                   <Link
                     href={`#${link.toLowerCase().replace(" ", "-")}`}
@@ -52,7 +52,7 @@ export function Footer() {
 
           {/* Social Links */}
           <div className="md:col-span-1">
-            <h4 className="text-sm uppercase tracking-widest text-foreground mb-4">Connect</h4>
+            <h4 className="text-sm uppercase tracking-widest text-foreground mb-4">Réseaux</h4>
             <ul className="space-y-3">
               {socialLinks.map((link) => (
                 <li key={link.name}>
@@ -77,7 +77,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span>&copy; 2089 TimeTravel Agency. All timelines reserved.</span>
+            <span>© 2089 TimeTravel Agency. Toutes les lignes temporelles réservées.</span>
           </div>
           <ul className="flex items-center gap-6">
             {footerLinks.map((link) => (
