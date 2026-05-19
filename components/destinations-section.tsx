@@ -20,7 +20,7 @@ const destinations = [
   },
   {
     id: 2,
-    title: "Cretaceous Period",
+    title: "Période du Crétacé",
     subtitle: "-65 millions d'années",
     description: "Marchez parmi les titans dans l'ère préhistorique la plus majestueuse de la Terre. Vivez la puissance brute des dinosaures dans leur habitat naturel.",
     details: "L'aventure ultime pour les amoureux de la nature. Nos ingénieurs temporels ont identifié les zones d'observation les plus sûres où vous pourrez observer des chasses de T-Rex, des troupeaux de Triceratops et des vols de ptérodactyles. Tous les clients sont équipés d'un bouclier temporel dernier cri et accompagnés d'une équipe de paléontologues devenus guides temporels.",
